@@ -1,0 +1,97 @@
+"Create a fully functional multi-page Personal Expense Tracker web app that runs locally in a browser. The app should include the following pages and features:*
+
+1. Home / Dashboard Page
+
+Show total income, total expenses, and balance.
+
+Display charts:
+
+Pie chart for category-wise expenses.
+
+Line/bar chart for expense trends over time.
+
+Quick navigation links to Add Expense/Income, Transactions, Reports, and Settings pages.
+
+2. Add Expense / Add Income Page
+
+Form fields:
+
+Amount
+
+Type: Expense or Income
+
+Category (dropdown + option to add custom category)
+
+Date (calendar picker)
+
+Description (optional)
+
+Validation for proper input values.
+
+Save transactions locally using localStorage.
+
+3. Transactions Page
+
+Display all transactions in a table or card layout.
+
+Include search/filter by:
+
+Category
+
+Date range
+
+Amount range
+
+Edit and delete buttons for each transaction.
+
+Persist changes in localStorage.
+
+4. Reports / Analytics Page
+
+Filter by month/week/year.
+
+Charts:
+
+Pie chart: spending by category
+
+Line/bar chart: spending over time
+
+Highlight top spending categories.
+
+Option to export transactions as CSV.
+
+5. Settings / Budget Page (Optional but recommended)
+
+Set budget per category.
+
+Show alerts if spending exceeds budget.
+
+Manage custom categories.
+
+Toggle dark/light mode.
+
+Additional Requirements
+
+Responsive design (desktop + mobile).
+
+Modern and clean UI (use CSS or a lightweight framework like Bootstrap).
+
+Interactive charts (use Chart.js or similar).
+
+Use localStorage for all persistent data (app runs fully locally without a backend).
+
+Include proper comments in HTML, CSS, and JS files.
+
+Multi-page navigation should be functional with links or SPA-style routing.
+
+Optional: Add animations for better UX (like chart updates, page transitions).
+
+Deliverables:
+
+Complete project folder with multiple HTML pages (index.html, add.html, transactions.html, reports.html, settings.html)
+
+Separate CSS (style.css) and JS (script.js) files
+
+App runs locally by opening index.html in a browser
+
+Fully functional with the features described above
