@@ -138,12 +138,12 @@ export default function Transactions() {
             
             <div>
               <Label>Category</Label>
-              <Select value={filters.category || ""} onValueChange={(value) => setFilters(prev => ({ ...prev, category: value || undefined }))}>
+              <Select value={filters.category || "all"} onValueChange={(value) => setFilters(prev => ({ ...prev, category: value === "all" ? undefined : value }))}>
                 <SelectTrigger data-testid="select-filter-category">
                   <SelectValue placeholder="All Categories" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="">All Categories</SelectItem>
+                  <SelectItem value="all">All Categories</SelectItem>
                   {categories.map((category) => (
                     <SelectItem key={category.id} value={category.name}>
                       {category.name}
